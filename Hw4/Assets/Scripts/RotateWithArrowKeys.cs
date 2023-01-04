@@ -43,8 +43,6 @@ public class RotateWithArrowKeys : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         
-        Debug.Log(currentIndex);
-
         lights[currentIndex].transform.Rotate(Vector3.up * horizontal * rotationSpeed * Time.deltaTime);
         lights[currentIndex].transform.Rotate(Vector3.right * vertical * rotationSpeed * Time.deltaTime);
     }
