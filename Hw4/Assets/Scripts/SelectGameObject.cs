@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class SelectGameObject : MonoBehaviour
 {
@@ -10,9 +11,15 @@ public class SelectGameObject : MonoBehaviour
     public float translateAmount = 2.0f;
     private float currentSpeed = 0.0f;
 
+    public TextMeshProUGUI currentCharacterText;
+    private int currentCharacter;
 
-    void Start () {
-        selectedGameObject = SelectGameObjectF(0);
+
+    void Start () 
+    {
+        currentCharacter = 0;
+        selectedGameObject = gameObjects[currentCharacter];
+        currentCharacterText.SetText(currentCharacter.ToString());
          // Accelerate the GameObject
         acceleration = 1.0f;
         deceleration = 1.0f;
@@ -22,6 +29,27 @@ public class SelectGameObject : MonoBehaviour
     
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            currentCharacter = 0;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            currentCharacter = 1;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            currentCharacter = 2;   
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {            
+            currentCharacter = 3;
+        }
+
+        selectedGameObject = gameObjects[currentCharacter];
+        currentCharacterText.SetText(currentCharacter.ToString());
+
         float horizontalInput = 0.0f;
         float verticalInput = 0.0f;
         float depthInput = 0.0f;
@@ -65,17 +93,5 @@ public class SelectGameObject : MonoBehaviour
 
         // Update the position of the GameObject
         selectedGameObject.transform.position += direction * currentSpeed * Time.deltaTime;
-    }
-
-    private  GameObject SelectGameObjectF(int index)
-    {
-        // Make sure the index is within the bounds of the array
-        if (index >= 0 && index < gameObjects.Length)
-        {
-            // Select the GameObject at the specified index
-            return gameObjects[index];
-            // You can add additional code here to do something with the selected GameObject
-        }
-        return new GameObject();
     }
 }
