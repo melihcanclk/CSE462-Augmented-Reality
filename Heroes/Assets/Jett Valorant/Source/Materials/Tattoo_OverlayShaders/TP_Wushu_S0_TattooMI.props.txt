@@ -1,0 +1,126 @@
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo =
+        {
+            Name = Brightness Min Distance
+        }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 2.75
+        ParameterInfo =
+        {
+            Name = Brightness Max Value
+        }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo =
+        {
+            Name = Fresnel Ally Offset
+        }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo =
+        {
+            Name = Fresnel Enemy Offset
+        }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo =
+        {
+            Name = Team Color Parameter
+        }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 2
+        ParameterInfo =
+        {
+            Name = Fresnel Blend Intensity
+        }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Burst_Anim }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Loop_Anim }
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo =
+        {
+            Name = RefractionDepthBias
+        }
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s1-WindowsClient/_Core/3P/Materials/TP_Core_CombinedFalloffGradients_Skin.TP_Core_CombinedFalloffGradients_Skin'
+        ParameterInfo =
+        {
+            Name = Combined Falloff Gradient
+        }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s13-WindowsClient/3P/Materials/TP_Wushu_S0_DF.TP_Wushu_S0_DF'
+        ParameterInfo = { Name=Albedo }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s13-WindowsClient/3P/Materials/TP_Wushu_S0_MRAE.TP_Wushu_S0_MRAE'
+        ParameterInfo = { Name=MRAE }
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s13-WindowsClient/3P/Materials/TP_Wushu_S0_NM.TP_Wushu_S0_NM'
+        ParameterInfo = { Name=Normal }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'pakchunk0_s13-WindowsClient/3P/Materials/Tattoo_OverlayShaders/TP_Wushu_S0_Tattoo.TP_Wushu_S0_Tattoo'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

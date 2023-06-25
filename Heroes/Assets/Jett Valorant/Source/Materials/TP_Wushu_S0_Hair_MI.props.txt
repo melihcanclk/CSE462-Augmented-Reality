@@ -1,0 +1,164 @@
+ScalarParameterValues[10] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 3.2
+        ParameterInfo =
+        {
+            Name = Lighting Brightness
+        }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0.1
+        ParameterInfo = { Name=Strand Mult }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0.161905
+        ParameterInfo =
+        {
+            Name = General Highlight Offset
+        }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 397.539
+        ParameterInfo =
+        {
+            Name = Highlight 1 Spread
+        }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 0.045238
+        ParameterInfo =
+        {
+            Name = Highlight 1 Intensity
+        }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo =
+        {
+            Name = Highlight 2 Offset
+        }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 19.9501
+        ParameterInfo =
+        {
+            Name = Highlight 2 Spread
+        }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = 0.12381
+        ParameterInfo =
+        {
+            Name = Highlight 2 Intensity
+        }
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterName = None
+        ParameterValue = 1.75
+        ParameterInfo =
+        {
+            Name = Fresnel Blend Intensity
+        }
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo =
+        {
+            Name = RefractionDepthBias
+        }
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s1-WindowsClient/_Core/3P/Materials/TP_Core_S0_HairStrand.TP_Core_S0_HairStrand'
+        ParameterInfo =
+        {
+            Name = Strand Texture
+        }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s1-WindowsClient/_Core/3P/Materials/TP_Core_CombinedFalloffGradients_Skin.TP_Core_CombinedFalloffGradients_Skin'
+        ParameterInfo =
+        {
+            Name = Combined Falloff Gradient
+        }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s13-WindowsClient/3P/Materials/TP_Wushu_S0_Hair_DF.TP_Wushu_S0_Hair_DF'
+        ParameterInfo = { Name=Albedo }
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s13-WindowsClient/3P/Materials/TP_Wushu_S0_Hair_MRAE.TP_Wushu_S0_Hair_MRAE'
+        ParameterInfo = { Name=MRAE }
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'pakchunk0_s13-WindowsClient/3P/Materials/TP_Wushu_S0_Hair_NM.TP_Wushu_S0_Hair_NM'
+        ParameterInfo = { Name=Normal }
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue =
+        {
+            R = 0.624277
+            G = 0.725242
+            B = 1
+            A = 1
+        }
+        ParameterInfo =
+        {
+            Name = Highlight 2 Color
+        }
+    }
+}
+Parent = Material3'pakchunk0_s1-WindowsClient/_Core/3P/Materials/Hair/CS_Character_Mat_V5_Hair.CS_Character_Mat_V5_Hair'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
